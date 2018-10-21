@@ -1,11 +1,3 @@
-package shrechak
-
-import org.apache.spark.sql.{Row, SparkSession}
-import org.apache.spark.sql.expressions._
-import org.apache.spark.sql.functions._
-
-// Chapter 1/2
-
 object SecondarySort extends App {
   val spark = SparkSession.builder()
     .master("local[2]")
